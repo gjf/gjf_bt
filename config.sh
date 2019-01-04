@@ -41,8 +41,8 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "*Bluetooth bit rate 454 kbit/s*"
-  ui_print "****aptX & aptX-HD Enabler*****"
+  ui_print "*Bluetooth bit rate increased**"
+  ui_print "****aptX & aptX-HD enabled*****"
   ui_print "*           by @gjf           *"
   ui_print "*******************************"
   ui_print "Please note: FOR REDMI 4X ONLY!"  

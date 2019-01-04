@@ -1,7 +1,7 @@
 id=gjf_bt
 name=Bluetooth stack bit rate changer + aptX&aptX-HD Enabler
 version=v4
-versionCode=454
+versionCode=Depends on Branch
 author=gjf
-description=A module to increase Bluetooth bit rate to 454 kbit/s, also enables aptX&aptxHD. For Redmi 4X only!
+description=A module to increase Bluetooth bit rate, also enables aptX&aptxHD. For Redmi 4X only!
 minMagisk=17000
