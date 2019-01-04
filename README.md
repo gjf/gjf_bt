@@ -8,6 +8,6 @@ Possibly some files are not necessary, but who cares )
 
 BT stack is modified in the way so it uses:
 - Dual Channel for any audio connection
-- Maximum bitrate depending on commit used. Test it on your headphones. Normally 484 kbit/s is OK with any headphones, personally I use 576 kbit/s without any problems.
+- Maximum bitrate depending on GitHub branch used. Test it on your headphones. Normally 484 kbit/s is OK with any headphones, personally I use 576 kbit/s without any problems.
 
 
