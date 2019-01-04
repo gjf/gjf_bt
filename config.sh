@@ -45,7 +45,7 @@ print_modname() {
   ui_print "****aptX & aptX-HD enabled*****"
   ui_print "*           by @gjf           *"
   ui_print "*******************************"
-  ui_print "Please note: FOR REDMI 4X ONLY!"  
+  ui_print "***!TESTED ON REDMI 4X ONLY!***"  
   ui_print "*******************************"
 }
 
