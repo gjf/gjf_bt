@@ -101,6 +101,8 @@ set_permissions() {
 # difficult for you to migrate your modules to newer template versions.
 # Make update-binary as clean as possible, try to only do function calls in it.
 
+# Volume-Key-Selector feature - credits to Zackptg5 for that
+
 keytest() {
   ui_print " - Vol Key Test -"
   ui_print "   Press a Vol Key:"
