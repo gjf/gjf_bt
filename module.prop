@@ -1,7 +1,7 @@
 id=gjf_bt
-name=Bluetooth stack bit rate changer + aptX&aptX-HD Enabler
+name=Bluetooth stack bitrate changer + aptX&aptX-HD Enabler
 version=5
 versionCode=5
 author=Gray Jack the Fixxxer
-description=A module to increase Bluetooth bit rate, also enables aptX&aptxHD.
+description=A module to increase Bluetooth bitrate, also enables aptX&aptxHD.
 minMagisk=17000
