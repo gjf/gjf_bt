@@ -17,3 +17,9 @@ BT stack is modified in the way so it uses:
 These changes will increase a quality of the sound when using wireless audio.
 
 Most likely Lineage OS and Lineage-based OS (like AICP) are not supported - please let me know if Bluetooth cannot be switched on after installing this module. In this case simply delete the module and reboot - everything will be restored.
+
+## ChangeLog ##
+
+v.5 First Release in Repository
+
+v.5.1 Added x86 support in keycheck
