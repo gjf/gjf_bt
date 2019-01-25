@@ -1,5 +1,5 @@
-Bluetooth stack bitrate changer + aptX & aptX-HD Enabler Module.
-Increases stack bitrate and enables aptX.
+Bluetooth stack audio bitrate changer for SBC + aptX & aptX-HD enabler Module.
+Increases stack bitrate for audio when SBC codec is used and enables aptX codec on supported devices (Qualcomm).
 Tested on Redmi 4X. Possibly (???) works on other devices.
 NO WORK on Lineage and Lineage-based ROMs (AICP etc).
 
