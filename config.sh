@@ -105,7 +105,7 @@ set_permissions() {
 
 keytest() {
   ui_print " - Vol Key Test -"
-  ui_print "   Press a Vol Key:"
+  ui_print "   Press a Vol Key"
   (/system/bin/getevent -lc 1 2>&1 | /system/bin/grep VOLUME | /system/bin/grep " DOWN" > $INSTALLER/events) || return 1
   return 0
 }
@@ -140,13 +140,17 @@ chooseportold() {
     return 0
   else
     ui_print "   Vol key not detected!"
-    abort "   Sorry for that."
+    abort "   Sorry for that. Aborting!"
   fi
 }
 
 choosebitrate() {
   # Keycheck binary by someone755 @Github, idea for code below by Zappo @xda-developers
-  KEYCHECK=$INSTALLER/common/keycheck
+  if "$ARCH32" == "arm"; then
+	KEYCHECK=$INSTALLER/common/keycheck-arm
+		else
+			KEYCHECK=$INSTALLER/common/keycheck-x86
+  fi
   chmod 755 $KEYCHECK
 
   if keytest; then
@@ -154,8 +158,6 @@ choosebitrate() {
   else
     FUNCTION=chooseportold
     ui_print "   ! Legacy device detected! Using old keycheck method"
-    ui_print " "
-    [ "$ARCH32" == "arm" ] || { ui_print "   ! Non-arm device detected!"; ui_print "   ! Keycheck binary only compatible with arm/arm64 devices!"; abort "!   Aborting!"; }
     ui_print "- Vol Key Programming -"
     ui_print "   Press Vol Up Again:"
     $FUNCTION "UP"
