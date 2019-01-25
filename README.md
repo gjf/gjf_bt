@@ -12,7 +12,7 @@ BT stack is modified in the way so it uses:
 1. aptX / aptXHD if supported by audio
 2. If aptX is not supported - SBC codec will be used, but with the following customization:
  - Dual Channel for any audio connection
- - Maximum bitrate depending on your choice during installation. Test it on your headphones. Normally 454 kbit/s is OK with any headphones, personally I use 576 kbit/s without any problems. If something is not working - just re-install the module with new bitrate os uninstall it completely.
+ - Maximum bitrate depending on your choice during installation. Test it on your headphones. Normally 454 kbit/s is OK with any headphones, personally I use 576 kbit/s without any problems. If something is not working - just re-install the module with new bitrate or uninstall it completely.
 
 These changes will increase a quality of the sound when using wireless audio.
 
