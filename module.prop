@@ -1,7 +1,7 @@
 id=gjf_bt
-name=Bluetooth stack audio bitrate changer for SBC + aptX & aptX-HD Enabler
-version=v5.1
-versionCode=6
+name=Bluetooth stack audio bitrate changer for SBC + aptX & aptX-HD enabler
+version=v5.3
+versionCode=8
 author=Gray Jack the Fixxxer
 description=A module to increase Bluetooth audio bitrate for SBC codec, also enables aptX & aptxHD codecs.
 minMagisk=17000

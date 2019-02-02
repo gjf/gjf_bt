@@ -109,6 +109,9 @@ ui_print "- Extracting module files"
 unzip -o "$ZIP" 'system/*' -d $MODPATH >&2
 
 #Place for check functions
+osver_fn
+
+#Let's ask which bitrate is needed
 choosebitrate
 
 # Remove placeholder

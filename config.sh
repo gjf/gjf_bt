@@ -197,3 +197,19 @@ choosebitrate() {
   cp -afr $MODPATH/system/lib/hw/BITRATES/$(echo $BITRATE)/bluetooth.default.so $MODPATH/system/lib/hw/bluetooth.default.so
   rm -rf $MODPATH/system/lib/hw/BITRATES
 }
+
+osver_fn() {
+# Variables
+DEVFND=0
+SDK_VER=23
+# SDK check
+  if [ $API -ge $SDK_VER ] ; then
+    ui_print "SDK$API detected. It is supported."
+    DEVFND=1
+    break
+  fi
+# Abort if no match
+if [ $DEVFND == 0 ]; then
+  abort "Android is older then Android 6 or modified build.prop! Aborting."
+fi
+}
